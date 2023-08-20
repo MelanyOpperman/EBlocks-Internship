@@ -1,3 +1,4 @@
+import React,{useState} from "react";
 //function to search for a person
 function Search(){
     return (
@@ -11,8 +12,8 @@ function Search(){
                 </select>
                 </div>
                 <div class="InputContainer">
-                    <div class="FilterInput">
-                        <input type="text" name="filter" id="filter" class="filter" placeholder="Filter" autoComplete="off"></input>
+                    <div>
+                        <input type="text" name="filter" id="filter" class="FilterInput" placeholder="Filter" autoComplete="off"></input>
                     </div>
                 </div>
             </div>
