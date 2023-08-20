@@ -1,0 +1,105 @@
+/* Styling for the menu bar */
+.Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  background-color: #006dfc;
+  color: white;
+  font-size: 27px;
+  padding: 10px 50px;
+}
+
+.Menu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.Menu li {
+  margin: 0 20px;
+}
+
+.Menu a {
+  text-decoration: none;
+  color: white;
+}
+/* Styling for the dropdown */
+.PhoneDropDown {
+  padding: 50px;
+  margin-right: 20px; 
+}
+
+#Phone {
+  padding: 8px;
+}
+/* the center text that is in every page to put all the elements in the center */
+.Center-Text {
+  text-align: center;
+}
+
+.h1 {
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  padding-top: 70px;
+}
+/* Styling for the inputs */
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FilterInput,
+.NameInput,
+.NumberInput,
+.PNameInput {
+  width: 220px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-color: transparent;
+  margin-bottom: 50px; 
+  outline: 0;
+  border: 0;
+  border-bottom: 2px solid #000000;
+  padding: 10px 0;
+  background: transparent;
+  font-size: 1.2em;
+  color: black;
+}
+/* Styling for the two buttons */
+.ButtonContainer {
+  display: flex;
+  justify-content: space-between; /* putting buttons horizontally */
+  align-items: center;
+  margin-top: 10px; 
+  margin-left: 700px;
+  margin-right: 700px;
+}
+
+.SaveButton,
+.CancelButton {
+  width: 100px;
+}
+
+.SaveButton button,
+.CancelButton button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.SaveButton button {
+  background-color: #3498db;
+}
+
+.CancelButton button {
+  background-color: red;
+}

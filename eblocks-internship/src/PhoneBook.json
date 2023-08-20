@@ -1,0 +1,36 @@
+{
+    "phonebookDetails": [
+        {
+            "id":1,
+            "catagory": "Home",
+            "name": "Laura Opperman",
+            "phoneNum": "0213568971"
+        },
+        {
+            "id":2,
+            "catagory": "Work",
+            "name": "Philip Dudley",
+            "phoneNum": "0836985640" 
+        },
+        {
+            "id":3,
+            "catagory": "School",
+            "name": "Jessica Grobler",
+            "phoneNum": "0749875620"
+        }
+    ],
+    "phonebookType": [
+        {
+            "id": 1,
+            "phoneBook": "Home"
+        },
+        {
+            "id": 2,
+            "phoneBook": "Work"
+        },
+        {
+            "id": 3,
+            "phoneBook": "School"
+        }
+    ]
+}
